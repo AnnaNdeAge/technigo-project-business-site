@@ -1,17 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Site</title>
-    <!-- Don't forget to link the CSS file here! -->
-  </head>
-  <body>
-    <h1>Business name 🌻</h1>
+<html lang="en">
 
-    <!-- Video or image as a header is cool :) -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Travel Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <h1>Ready to Sign Up
+    <br> for Your Next
+    <br> Adventure?
+  </h1>
+  <h2>Please fill in the form.
+    <br> And let us help you find it!
+  </h2>
+</header>
 
-    <!-- Signup form -->
+<body>
 
-  </body>
+  <video autoplay muted loop id="myVideo">
+    <source src="assets/15708462-uhd_3840_2160_24fps.mp4" type="video/mp4">
+  </video>
+  <div class="submit-box">
+    <form action="http://httpbin.org/anything" method="post">
+      <div class="user-box">
+        <label>First name</label>
+        <input type="text" required>
+      </div>
+      <div class="user-box">
+        <label for="Last name">Last name</label>
+        <input type="text" name="Last name" required />
+      </div>
+      <div class="user-box">
+        <label>E-mail</label>
+        <input type="email" required>
+      </div>
+      <legend>
+        Select what type of traveler you are
+      </legend>
+      <!--Radio buttons-->
+      <fieldset>
+        <div>
+          <input type="radio" name="TypeOfTraveler" value="FirstButton" tabindex="5" checked="checked">
+          <label class="choice">The Thrill seeker</label>
+        </div>
+        <div>
+          <input type="radio" name="TypeOfTraveler" value="SecondButton" tabindex="6">
+          <label class="choice">The Soul Searcher</label>
+        </div>
+        <div>
+          <input type="radio" name="TypeOfTraveler" value="ThirdButton" tabindex="7">
+          <label class="choice">The Leisure Explorer</label>
+        </div>
+        <div>
+          <input type="radio" name="TypeOfTraveler" value="FourthButton" tabindex="8">
+          <label class="choice">Other</label>
+        </div>
+      </fieldset>
+      <legend>
+        What is important for your ultimate travel experience?
+      </legend>
+      <!--Checkboxes-->
+      <fieldset>
+        <div>
+          <input type="checkbox" value="FirstChoice" tabindex="9">
+          <label class="choice">Nature experience</label>
+        </div>
+        <div>
+          <input type="checkbox" value="SecondChoice" tabindex="10">
+          <label class="choice">Sharing moments with others</label>
+        </div>
+        <div>
+          <input type="checkbox" value="ThirdChoice" tabindex="11">
+          <label class="choice">Adrenaline and new challenges</label>
+          </span>
+        </div>
+        <div>
+          <input type="checkbox" value="FourthChoice" tabindex="12">
+          <label class="choice">Local food and Culture</label>
+          </span>
+        </div>
+      </fieldset>
+      <div>
+        <legend>
+          Select your travel season
+        </legend>
+      </div>
+      <div>
+        <select tabindex="13">
+          <option value="First Choice">Spring</option>
+          <option value="Second Choice">Summer</option>
+          <option value="Third Choice">Autumn</option>
+          <option value="Fourth Choice">Winter</option>
+        </select>
+      </div>
+      <div>
+        <button class="btn" type="submit" tabindex="14"> Sign Up</button>
+      </div>
+    </form>
+  </div>
+</body>
+
 </html>
