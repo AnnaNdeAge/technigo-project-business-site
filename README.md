@@ -2,9 +2,10 @@
 
 Replace this readme with your own information about the project. You can include things like:
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+- Make a business site with a sign up form and a background picture or video. The form should inlude radio button, check box, select and a submit button.
+- The data from the form should be posted into a service called HTTPBin.
+- I set up the form and positioned the viedo behind
+- I would work more on the responsiveness if I had more time.
 
 ## View it live
 Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
